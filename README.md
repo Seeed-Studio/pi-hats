@@ -12,19 +12,19 @@
 
     *RTC HAT(ds1307)*  
 	attach:  
-	![ds1307](https://github.com/Seeed-Studio/pi-hats/blob/master/picture/rtc_ds1307.png)
+	<img src="https://github.com/Seeed-Studio/pi-hats/blob/master/picture/rtc_ds1307.png" width="30%" height="30%" />  
     ```bash
         sudo ./install.sh -u rtc_ds1307
     ```
     *High Accuracy RTC HAT(ds3231)*  
-	attach:
-	![ds3231](https://github.com/Seeed-Studio/pi-hats/blob/master/picture/rtc_ds3231.png)
+	attach:  
+	<img src="https://github.com/Seeed-Studio/pi-hats/blob/master/picture/rtc_ds3231.png" width="50%" height="50%" /> 
     ```bash
         sudo ./install.sh -u rtc_ds3231
     ```
     *4-Channel 16-Bit ADC HAT(ads1115)*  
 	attach:
-	![ads1115](https://github.com/Seeed-Studio/pi-hats/blob/master/picture/ads_1115.png)
+	<img src="https://github.com/Seeed-Studio/pi-hats/blob/master/picture/ads_1115.png" width="50%" height="50%" /> 
     ```bash
         sudo ./install.sh -u adc_ads1115
     ```
