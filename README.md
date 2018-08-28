@@ -72,7 +72,7 @@ channels 4-7 is absolute voltage of AIN0-AIN3, full scale range 0 - +2.048V
 
 Read AIN0(channel 4) voltage(unit mV).
 ```bash
-    cat /sys/devices/platform/soc/*04000.i2c/i2c-1/1-0048/in4_input
+	./ads1115.sh
 ```
 
 <div>
