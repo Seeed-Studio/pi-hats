@@ -250,6 +250,8 @@ if [ -n "$module" ]; then
   fi
 fi
 
+sync()
+
 echo "#######################################################"
 echo "Reboot the system to take a effect of Install/Uninstall"
 echo "#######################################################"
