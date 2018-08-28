@@ -10,19 +10,19 @@
 
     Only applied for Raspbian Jessie/Stretch
 
-    *RTC HAT(ds1307)*
+    *RTC HAT(ds1307)*  
 	attach:  
 	![ds1307](https://github.com/Seeed-Studio/pi-hats/blob/master/picture/rtc_ds1307.png)
     ```bash
         sudo ./install.sh -u rtc_ds1307
     ```
-    *High Accuracy RTC HAT(ds3231)*
+    *High Accuracy RTC HAT(ds3231)*  
 	attach:
 	![ds3231](https://github.com/Seeed-Studio/pi-hats/blob/master/picture/rtc_ds3231.png)
     ```bash
         sudo ./install.sh -u rtc_ds3231
     ```
-    *4-Channel 16-Bit ADC HAT(ads1115)*
+    *4-Channel 16-Bit ADC HAT(ads1115)*  
 	attach:
 	![ads1115](https://github.com/Seeed-Studio/pi-hats/blob/master/picture/ads_1115.png)
     ```bash
