@@ -12,7 +12,7 @@
 
     *RTC HAT(ds1307)*  
 	attach:  
-	<img src="https://github.com/Seeed-Studio/pi-hats/blob/master/picture/rtc_ds1307.png" width="30%" height="30%" />  
+	<img src="https://github.com/Seeed-Studio/pi-hats/blob/master/picture/rtc_ds1307.png" width="50%" height="50%" />  
     ```bash
         sudo ./install.sh -u rtc_ds1307
     ```
