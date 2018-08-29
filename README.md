@@ -64,7 +64,7 @@ More usage
 ##
 ## ADC Guide
 ### 4-Channel 16-Bit ADC HAT(ads1115)
-![](https://github.com/Seeed-Studio/pi-hats/raw/master/images/ads1115-channels.png) 
+![](images/ads1115-channels.png) 
 
 channels 0-3 is differntial voltage, full scale range -2.048V - +2.048V 
 
