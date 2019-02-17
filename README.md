@@ -1,9 +1,7 @@
 # Seeed's RPI Hats
-The repository is the seeed studio's RPI hats driver. Only applied for Raspbian Jessie/Stretch.
 
+The repository is the seeed studio's RPI hats driver. 
 # Pi hats
-
-The following is the seeed studio's RPI hats
 
 1. [**RTC HAT Guide**](https://github.com/Seeed-Studio/pi-hats/tree/dev/RTC-HAT)  
 	* [RTC HAT(ds1307)](www.google.com) [🛒](www.google.com)
