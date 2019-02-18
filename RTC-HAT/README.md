@@ -18,7 +18,7 @@ RTC HAT(ds1307) or High Accuracy RTC HAT(ds3231)
 
 1. Driver Installation，  **Only applied for Raspbian Jessie/Stretch.**
 ```
-#open tools direction
+#open tools directory
 cd tools
 
 #for ds1307

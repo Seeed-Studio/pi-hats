@@ -36,7 +36,6 @@
 <br><br>
 ## Usage
 
-<div align="left">
 <table style="border-style:none; border-width:0px;">
 <tr align="center">
   <td>
