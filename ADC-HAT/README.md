@@ -1,7 +1,54 @@
 # ADC Guide
-![](https://www.seeedstudio.com/media/catalog/product/cache/ef3164306500b1080e8560b2e8b5cc0f/p/e/perspective_3.jpg)
 ### 4-Channel 16-Bit ADC HAT(ads1115)
-![](https://github.com/Seeed-Studio/pi-hats/raw/master/images/ads1115-channels.png) 
+![](https://www.seeedstudio.com/media/catalog/product/cache/ef3164306500b1080e8560b2e8b5cc0f/p/e/perspective_3.jpg)
+
+## Installation
+**Please follow the steps strictly when installing,otherwise the installation may failed or even damage the module.**
+
+1. Driver Installation，  **Only applied for Raspbian Jessie/Stretch.**
+
+   ```bash
+   # open tools directory
+   cd tools
+
+   # Install driver
+   sudo ./install.sh -u adc_ads1115
+
+   # sync all setting
+   sync
+   ```
+   Power off Raspberry Pi
+
+   Insert the HAT to Raspberry Pi
+
+   Power up Raspberry Pi
+
+2. List install status
+   ```bash
+   ./install.sh -l
+   ```
+3. Uninstallation
+   ```bash
+   sudo ./install.sh -u
+   ```
+
+
+<br><br>
+## Usage
+
+<div align="left">
+<table style="border-style:none; border-width:0px;">
+<tr align="center">
+  <td>
+    <img src="../images/ads1115-channels.png">
+  </td>
+</tr>
+<tr align="center">
+  <td>
+    Input Channels
+  </td>
+</tr>
+</table>
 
 channels 0-3 is differntial voltage, full scale range -2.048V - +2.048V 
 
