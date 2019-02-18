@@ -7,7 +7,7 @@ RTC HAT(ds1307) or High Accuracy RTC HAT(ds3231)
 <a><img src=https://www.seeedstudio.com/media/catalog/product/cache/ef3164306500b1080e8560b2e8b5cc0f/h/t/httpsstatics3.seeedstudio.comseeedfile2018-11bazaar988493_perspective.jpg></a>
 </td>
 <td>
-<a><img src=https://www.seeedstudio.com/media/catalog/product/cache/ef3164306500b1080e8560b2e8b5cc0f/h/t/httpsstatics3.seeedstudio.comseeedfile2018-11bazaar988493_perspective.jpg></a>
+<a><img src=https://www.seeedstudio.com/media/catalog/product/cache/ef3164306500b1080e8560b2e8b5cc0f/h/t/httpsstatics3.seeedstudio.comseeedfile2018-11bazaar988498_perspective.jpg></a>
 </td>
 </tr>
 </table>
