@@ -8,8 +8,11 @@
 1. Driver Installation，  **Only applied for Raspbian Jessie/Stretch.**
 
    ```bash
+   # Clone this repo
+   cd; git clone https://github.com/Seeed-Studio/pi-hats.git
+
    # open tools directory
-   cd tools
+   cd ~/pi-hats/tools
 
    # Install driver
    sudo ./install.sh -u adc_ads1115

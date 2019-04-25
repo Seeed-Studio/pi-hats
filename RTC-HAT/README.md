@@ -17,9 +17,13 @@ RTC HAT(ds1307) or High Accuracy RTC HAT(ds3231)
 **Please follow the steps strictly when installing,otherwise the installation may failed or even damage the module.**
 
 1. Driver Installation，  **Only applied for Raspbian Jessie/Stretch.**
-```
-#open tools directory
-cd tools
+
+```bash
+# Clone this repo
+cd; git clone https://github.com/Seeed-Studio/pi-hats.git
+
+# open tools directory
+cd ~/pi-hats/tools
 
 #for ds1307
 sudo ./install.sh -u rtc_ds1307
