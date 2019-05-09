@@ -1,4 +1,4 @@
-# CAN-HAT
+# Grove AI HAT for Edge Computing
 
 
 The drivers of [Grove AI HAT for Edge Computing devices](https://www.seeedstudio.com/Grove-AI-HAT-for-Edge-Computing-p-4026.html) for Raspberry Pi.
