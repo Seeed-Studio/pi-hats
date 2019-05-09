@@ -1,0 +1,53 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "brcm,bcm2708";
+
+    fragment@0 {
+        target = <&i2s>;
+        __overlay__ {
+            status = "okay";
+        };
+    };
+
+    fragment@1 {
+        target-path = "/";
+        __overlay__ {
+            card_codec: card-codec {
+                #sound-dai-cells = <0>;
+                compatible = "seeed,grove_ai_mics";
+                status = "okay";
+            };
+        };
+    };
+
+    fragment@2 {
+        target = <&sound>;
+        master_overlay: __overlay__ {
+        	compatible = "simple-audio-card";
+        	simple-audio-card,name = "seeed-1-voicecard";
+        	status = "okay";
+        	simple-audio-card,dai-link@0 {
+        		format = "i2s";
+        		bitclock-master = <&codec0_dai>;
+        		frame-master = <&codec0_dai>;
+        		/* bitclock-inversion; */
+        		/* frame-inversion; */
+        	
+        		cpu {
+        			sound-dai = <&i2s>;
+        		};
+        	
+        		codec0_dai: codec {
+        			sound-dai = <&card_codec>;
+        		};
+        	};
+        };
+    };
+
+
+    __overrides__ {
+        card-name = <&master_overlay>,"simple-audio-card,name";
+    };
+};
