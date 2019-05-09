@@ -15,6 +15,8 @@ The repository is the seeed studio's RPI hats driver.
 	* [ReSpeaker 4-Mic Linear Array Kit for Raspberry Pi](https://github.com/respeaker/seeed-voicecard#4-mics-linear-array-kit)[🛒](https://www.seeedstudio.com/ReSpeaker-4-Mic-Linear-Array-Kit-for-Raspberry-Pi-p-3066.html)
 4. [**CAN HAT Guide**](https://www.seeedstudio.com) 
 	* [2-Channel can fd HAT(mcp2517fd)](https://www.seeedstudio.com) [🛒](https://www.seeedstudio.com/)
+5. [**Grove AI HAT**](https://github.com/Seeed-Studio/pi-hats/tree/master/GROVE-AI-HAT) 
+	* [Grove AI HAT for Edge Computing ](https://github.com/Seeed-Studio/pi-hats/tree/master/GROVE-AI-HAT) [🛒](https://www.seeedstudio.com/Grove-AI-HAT-for-Edge-Computing-p-4026.html)
 
 ## FAQ
 
