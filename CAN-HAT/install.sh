@@ -138,23 +138,22 @@ function install_module {
   mkdir -p /var/lib/dkms/$mod/$ver/$marker
 }
 
-install_module "./" "mcp25xxfd"
+install_module "./" "mcp2517fd"
 
 
 # install dtbos
 cp 2xMCP2517FD.dtbo /boot/overlays
-cp 2xMCP2518FD-spi0.dtbo /boot/overlays
+
+
 
 #set kernel moduels
-grep -q "^mcp25xxfd$" /etc/modules || \
-  echo "mcp25xxfd" >> /etc/modules
+grep -q "^mcp25xxfd-can$" /etc/modules || \
+  echo "mcp25xxfd-can" >> /etc/modules
 
 #set dtoverlays
 grep -q "^dtoverlay=2xMCP2517FD$" /boot/config.txt || \
   echo "dtoverlay=2xMCP2517FD" >> /boot/config.txt
 
-grep -q "^dtoverlay=2xMCP2518FD-spi0$" /boot/config.txt || \
-  echo "dtoverlay=2xMCP2518FD-spi0" >> /boot/config.txt
 
 #install config files
 cp 80-can.rules /etc/udev/rules.d/
