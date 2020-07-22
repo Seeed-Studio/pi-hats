@@ -3,9 +3,7 @@ mcp25xxfd-objs := mcp25xxfd-core.o
 mcp25xxfd-objs += mcp25xxfd-crc16.o
 mcp25xxfd-objs += mcp25xxfd-dump.o
 mcp25xxfd-objs += mcp25xxfd-regmap.o
-
-#init debug undef
-#mcp25xxfd-objs += mcp25xxfd-log.o
+mcp25xxfd-objs += mcp25xxfd-log.o
 
 
 
