@@ -1,3 +1,5 @@
+# Note: The support for the hardware moved to this repository, and if you have any questions please discuss it under seeed-linux-dtoverlays.
+***https://github.com/Seeed-Studio/seeed-linux-dtoverlays***
 # Seeed's RPI Hats
 
 The repository is the seeed studio's RPI hats driver. 
